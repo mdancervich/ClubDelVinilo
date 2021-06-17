@@ -1,717 +1,670 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Club del vinilo</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="Free Website Template" name="keywords">
-        <meta content="Free Website Template" name="description">
 
-        <!-- Favicon -->
-        <link href="img/favicon.ico" rel="icon">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-        <!-- Google Font -->
-        <link href="https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet" rel="stylesheet">
-        <link href="http://fonts.cdnfonts.com/css/lovera-personal-use" rel="stylesheet">
-        <!-- CSS Libraries -->
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-        <link href="lib/animate/animate.min.css" rel="stylesheet">
-        <link href="lib/flaticon/font/flaticon.css" rel="stylesheet"> 
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <title>Club del vinilo</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
 
-        <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
-    </head>
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/favicon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link
+            href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+            rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- =======================================================
+    * Template Name: eNno - v4.3.0
+    * Template URL: https://bootstrapmade.com/enno-free-simple-bootstrap-template/
+    * Author: BootstrapMade.com
+    * License: https://bootstrapmade.com/license/
+    ======================================================== -->
+</head>
+
+<body>
+
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+
+        <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+        <nav id="navbar" class="navbar">
+            <ul>
+                <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
+
+                <li><a class="nav-link scrollto" href="#featured-services">Como funciona</a></li>
+                <li class="dropdown"><a href="#tabla-precios"><span>Boxes</span> <i class="bi bi-chevron-down"></i></a>
+                    <ul>
+                        <li><a href="#"><b>Box bronce</b></a></li>
+                        <li><a href="detalle.html">Box plata</a></li>
+                        <li><a href="#">Box oro</a></li>
+                    </ul>
+                <li><a class="nav-link scrollto" href="#team">Profesionales</a></li>
+                <li><a class="nav-link scrollto" href="#portfolio">Selecciones</a></li>
+                <li><a class="nav-link scrollto" href="#myslides">Testimonios</a></li>
+                <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
+                </li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+
+    </div>
+</header><!-- End Header -->
+
+<!-- ======= Hero Section ======= -->
+<section id="hero" class="d-flex align-items-center"
+         style="background-image: url('assets/img/background-hero.png');background-size: cover;">
+
+    <div class="container center">
+        <div class="row">
+            <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+                <h1>Viví la experiencia</h1>
+                <a>Recibí una caja en la puerta de tu casa mes a mes con diferentes dicos de vinilo seleccionados para
+                    vos</a>
+                <div class="d-flex" style="padding-top: 10px">
+                    <a href="#about" class="btn-get-started scrollto">¡ADQUIRÍ TU BOX!</a>
+                </div>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2 hero-img">
+                <img src="assets/img/hero.png" class="img-fluid animated" alt="">
+            </div>
+        </div>
+    </div>
+
+</section><!-- End Hero -->
 
 
 
-        <!-- Nav Bar Start -->
-        <div class="navbar navbar-expand-lg bg-dark navbar-dark">
-            <div class="container-fluid">
-                <a href="index.html" class="navbar-brand"><img src="img/logo.png" width="180" height="600" />
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+ <!-- ======= Featured Services Section ======= -->
+ <section id="featured-services" class="featured-services center">
+    <div class="container">
 
-                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                    <div class="navbar-nav ml-auto">
-                        <a href="index.html" class="nav-item nav-link active">Inicio</a>
-                        <a href="about.html" class="nav-item nav-link">Suscripción</a>
-                        <a href="service.html" class="nav-item nav-link">Nosotros</a>
-                        <a href="class.html" class="nav-item nav-link"> Beneficios</a>
-                        <a href="team.html" class="nav-item nav-link">Contacto</a>
-                              
-                            </div>
+        <div class="row" style="display: flex; justify-content: center;">
+            <h2 class="services-title">¡Llega a tu casa <strong> así de fácil!</strong></h2>
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" style="justify-content: center">
+                <div class="icon-box">
+                    <div class="icon"><img style="height:80px; width: 80px;"
+                                           src="assets\img\estrellaicono.png"></img></div>
+                    <h4 class="title"><a href="">¡1,2,3!</a></h4>
+                    <p class="description">Elegí tu combo <br>favorito.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" style="justify-content: center">
+                <div class="icon-box">
+                    <div class="icon"><img style="height:80px; width: 80px;" src="assets\img\cajaicono.png"></img>
+                    </div>
+                    <h4 class="title"><a href="">¡Riiiiing!</a></h4>
+                    <p class="description">Llegará GRATIS a tu domicilio.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" style="justify-content: center">
+                <div class="icon-box">
+                    <div class="icon"><img style="height:80px; width: 80px;" src="assets\img\musicaicono.png"></img>
+                    </div>
+                    <h4 class="title"><a href="">Disfrutá...</a></h4>
+                    <p class="description">Sumergite en <br>la magia.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section><!-- End Featured Services Section -->
+
+
+ <!-- ======= About Section ======= -->
+ <section id="about" class="about">
+
+    <div class="container" data-aos="fade-up">
+      <div class="row gx-0">
+
+        <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+          <div class="content">
+            <h3>Sobre el club</h3>
+            <h2>El club somos todos nosotros y nuestras experiencias, te contamos la nuestra...</h2>
+            <p>
+              Somos un grupo de amigos apasionados por la música. Aprendimos que la calidad sonora del disco no es lo mismo que los auriculares, por eso mismo los invitamos a unirse a nuestro club y a disfrutar de este mundo.
+            </p>
+            <div class="text-center text-lg-start">
+              <a href="#" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+                <span>Leer más</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+          <img src="assets/img/about.png" class="img-" alt="">
+        </div>
+
+      </div>
+    </div>
+
+  </section><!-- End About Section -->
+
+
+
+
+
+
+<main id="main">
+
+   
+    <!-- ======= About Section  ======= -->
+    <section id="tabla-precios" class="featured-services center"
+             style="background-image: url('assets/img/fondoboxes.png'); background-size: cover;">
+        <div class="container">
+
+            <div class="row" style="display: flex; justify-content: center;">
+                <h2 class="about-title">Elegí tu box <b>favorita</b></h2>
+
+                <div class="col-md-3 ml-md-auto box-container">
+                    <div class="precio-col-header">
+                        <h3 class="box-title" style="color:#cc8527">Box BRONCE</h3>
+                        <p style="font-size: 18px; color: #898989;">POR ÚNICA VEZ</p>
+                    </div>
+
+                    <div class="precio-col-features">
+                        <p style="color: #898989; min-height: 140px;">Recibirás <b>una sóla vez</b> un combo de 3 discos de vinilo inéditos
+                            que seleccionaremos
+                            para vos.</p>
+                    </div>
+
+                    <div class="precio-col-valor">
+                        <p style="color: #898989">$<b style="font-size: 30px">7.200</b>/mes</p>
+                    </div>
+
+                    <div class="precio-col-comprar">
+                        <a href="">+ info</a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 ml-md-auto box-container">
+                    <div class="precio-col-header">
+                        <h3 class="box-title" style="color:#b2afaf">Box <br>PLATA</h3>
+                        <p style="font-size: 18px; color:#898989;">POR 6 MESES</p>
+                    </div>
+
+                    <div class="precio-col-features">
+                        <p style="color:#898989; min-height: 140px;">Recibirás <b>una vez por mes por 6 meses</b> un combo de 3 discos de
+                            vinilo inéditos que seleccionaremos
+                            para vos.</p>
+                    </div>
+
+                    <div class="precio-col-valor">
+                        <p style="color:#898989">$<b style="font-size: 30px">6.800</b>/mes</p>
+                    </div>
+
+                    <div class="precio-col-comprar">
+                        <a href="detalle.html">+ info</a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 ml-md-auto box-container">
+                    <div class="precio-col-header">
+                        <h3 class="box-title" style="color:#ddd431">Box <br>ORO</h3>
+                        <p style="font-size: 18px; color:#898989;">POR 12 MESES</p>
+                    </div>
+
+                    <div class="precio-col-features">
+                        <p style="color:#898989; min-height: 140px;">Recibirás <b>una vez al mes por un año</b> un combo de 3 discos de
+                            vinilo inéditos que seleccionaremos para
+                            vos.</p>
+                    </div>
+
+                    <div class="precio-col-valor">
+                        <p style="color:#898989">$<b style="font-size: 30px">5.700</b>/mes</p>
+                    </div>
+
+                    <div class="precio-col-comprar">
+                        <a href="">+ info</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End About Section  -->
+
+
+    <!-- ======= About Section 
+    <section id="tabla-precios" class="featured-services">
+      <div class="container">
+
+        <div class="row" style="display: flex; justify-content: center;">
+      <h2 style="display: flex; justify-content: center;">Elegí tu box <strong>favorita</strong></h2>
+
+      <div class="precio-col col-lg-2 col-md-6 mt-4 mt-md-0">
+        <div class="precio-col-header">
+          <h3>Box bronce</h3>
+          <p>POR ÚNICA VEZ</p>
+        </div>
+
+        <div class="precio-col-features">
+          <p>Recibirás una vez por mes <b>una sola vez</b> un combo de 3 discos de vinilo inéditos que seleccionaremos
+            para vos.</p>
+        </div>
+
+        <div class="precio-col-comprar">
+          <a href="https://empresiona.com">+ info</a>
+        </div>
+      </div>
+
+      <div class="precio-col col-lg-2 col-md-6 mt-4 mt-md-0">
+        <div class="precio-col-header">
+          <h3>Box plata</h3>
+          <p>POR 6 MESES</p>
+        </div>
+
+        <div class="precio-col-features">
+          <p>Recibirás <b>una vez por mes por 6 meses</b> un combo de 3 discos de vinilo inéditos que seleccionaremos
+            para vos.</p>
+        </div>
+
+        <div class="precio-col-comprar">
+          <a href="https://empresiona.com">+ info</a>
+        </div>
+      </div>
+
+      <div class="precio-col col-lg-2 col-md-6 mt-4 mt-md-0">
+        <div class="precio-col-header">
+          <h3>Box oro</h3>
+          <p>POR 12 MESES</p>
+        </div>
+
+        <div class="precio-col-features">
+          <p>Recibirás <b>una vez al mes por un año</b> un combo de 3 discos de vinilo inéditos que seleccionaremos para
+            vos.</p>
+        </div>
+
+        <div class="precio-col-comprar">
+          <a href="https://empresiona.com">+ info</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+   ======= Team Section ======= -->
+    <section id="team" class="team section-bg">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Conocé nuestros líderes del #clubdelvinilo</h2>
+                <p></p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                    <div class="member">
+                        <img src="assets/img/pexels-photo-69212.jpeg" alt="" style="border: 5px solid #04cbb3;">
+                        <h4>Juan Martín Chiazarreta</h4>
+                        <span>"el seleccionador"</span>
+                        <p>
+                            Juan es un experto en la seleccion de discos de vinilo, es fánatico desde los 6 años de este
+                            mundo y
+                            será quien tenga en sus manos tu selección.
+                        </p>
+                        <div class="social">
+                            <a href=""><i class="bi bi-twitter"></i></a>
+                            <a href=""><i class="bi bi-facebook"></i></a>
+                            <a href=""><i class="bi bi-instagram"></i></a>
+                            <a href=""><i class="bi bi-linkedin"></i></a>
                         </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                    <div class="member">
+                        <img src="assets/img/pexels-photo-1662925.jpeg" alt="" style="border: 5px solid #04cbb3;">
+                        <h4>Marcos Bremer</h4>
+                        <span>"el profesor"</span>
+                        <p>
+                            Marcos es un experto en el tema, y por esa misma razón tiene su propio blog para que puedas
+                            aprender con
+                            él.
+                        </p>
+                        <div class="social">
+                            <a href=""><i class="bi bi-twitter"></i></a>
+                            <a href=""><i class="bi bi-facebook"></i></a>
+                            <a href=""><i class="bi bi-instagram"></i></a>
+                            <a href=""><i class="bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                    <div class="member">
+                        <img src="assets/img/pexels-photo-6207031.jpeg" alt="" style="border: 5px solid #04cbb3;">
+                        <h4>Matías Perezzi</h4>
+                        <span>"La mente maestra"</span>
+                        <p>
+                            Matías es quien hacer que todo funcione a la perfección, la mente maestra detrás del club.
+                        </p>
+                        <div class="social">
+                            <a href=""><i class="bi bi-twitter"></i></a>
+                            <a href=""><i class="bi bi-facebook"></i></a>
+                            <a href=""><i class="bi bi-instagram"></i></a>
+                            <a href=""><i class="bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- End Team Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio"
+             style="background-image: url('assets/img/portfolio/marco-completo-pared-ladrillo-blanco_23-2148152833.jpg'); background-size: 100%;">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Un poco de tutti</h2>
+                <p>Conocé que estuvieron recibiendo nuestros miembros del club los meses anteriores.</p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12 d-flex justify-content-center">
+                    <ul id="portfolio-flters">
+                        <li data-filter="*" class="filter-active">Todas</li>
+                        <li data-filter=".filter-app">Rock</li>
+                        <li data-filter=".filter-card">Pop</li>
+                        <li data-filter=".filter-web">Jazz</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row portfolio-container">
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <img src="assets/img/portfolio/rock3.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>Gustavo Cerati</h4>
+                        <p>Ahí vamos</p>
+                        <a href="assets/img/portfolio/rock3.jpg" data-gallery="portfolioGallery"
+                           class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
+                        <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                                class="bx bx-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <img src="assets/img/portfolio/atomheartmotherpinkfloyd.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>Pink Floyd</h4>
+                        <p>Atom Heart Mother</p>
+                        <a href="assets/img/portfolio/atomheartmotherpinkfloyd.jpg" data-gallery="portfolioGallery"
+                           class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
+                        <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                                class="bx bx-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <img src="assets/img/portfolio/beatles.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>The beatles</h4>
+                        <p>Get back dont let me down</p>
+                        <a href="assets/img/portfolio/beatles.jpg" data-gallery="portfolioGallery"
+                           class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
+                        <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                                class="bx bx-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <img src="assets/img/portfolio/pop3.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>Harry Styles</h4>
+                        <p>Fine Line</p>
+                        <a href="assets/img/portfolio/pop3.jpg" data-gallery="portfolioGallery"
+                           class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
+                        <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                                class="bx bx-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <img src="assets/img/portfolio/jazz1.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>Chet Baker</h4>
+                        <p>Pacific Jazz</p>
+                        <a href="assets/img/portfolio/jazz1.jpg" data-gallery="portfolioGallery"
+                           class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
+                        <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                                class="bx bx-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <img src="assets/img/babasonicos.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>Babasonicos</h4>
+                        <p>Anoche</p>
+                        <a href="assets/img/babasonicos.jpg" data-gallery="portfolioGallery"
+                           class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
+                        <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                                class="bx bx-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <img src="assets/img/portfolio/pop2.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>Michael Jackson</h4>
+                        <p>Bad</p>
+                        <a href="assets/img/portfolio/pop2.jpg" data-gallery="portfolioGallery"
+                           class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
+                        <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                                class="bx bx-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <img src="assets/img/portfolio/pop1.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>The Weeknd</h4>
+                        <p>Star Boy</p>
+                        <a href="assets/img/portfolio/pop1.jpg" data-gallery="portfolioGallery"
+                           class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
+                        <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                                class="bx bx-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <img src="assets/img/portfolio/jazz2.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>John Coltrane</h4>
+                        <p>Blue Train</p>
+                        <a href="assets/img/portfolio/jazz2.jpg" data-gallery="portfolioGallery"
+                           class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
+                        <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                                class="bx bx-link"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- End Portfolio Section -->
+
+
+    <!-- TESTIMONIOS-->
+
+    <!-- 
+    <section id="myslides" class="d-flex align-items-center"></section>
+    <div style="background-image: url('/assets/img/andandiciendo_page-0001.jpg')" class="slideshow-container"></div>
+
+        Full-width slides/quotes
+        <div class="mySlides">
+            <q>Soy fanático del club, soy socio hace 2 años ya. Recibo vinilos terribles cada mes, lo recomiendo
+                100%</q>
+            <p class="author"><b>Lucas Pedrazza</b> - socio ORO</p>
+        </div>
+
+        <div class="mySlides">
+            <q>Increíbles los discos, los escucho junto a mi hija que es súper fan también, genios totales, aguante el
+                club del vinilo.</q>
+            <p class="author"><b>Rodrigo Estebán Llanos</b> - socio ORO</p>
+        </div>
+
+        <div class="mySlides">
+            <q>Compré el mes pasado y tengo ganas de adquirir la box plata, la verdad me impresionó ya que le pegaron a
+                todos mis gustos, soy fanática del rock y lo que me enviaron me voló la cabeza, no sé como hacen!</q>
+            <p class="author"><B>Macarena Villalba</B>- socio BRONCE</p>
+        </div>
+
+        Next/prev buttons 
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+     
+    <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    -->
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Contactate con nosotros</h2>
+                <p>¡Y empezá a vivir la experiencia!</p>
+            </div>
+
+            <div class="row" style="justify-content: center">
+
+           
+
+                    <div class="o">
+                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="name">Nombre</label>
+                                    <input type="text" name="name" class="form-control" id="name" required>
+                                </div>
+                                <div class="form-group col-md-6 mt-3 mt-md-0">
+                                    <label for="name">E-mail</label>
+                                    <input type="email" class="form-control" name="email" id="email" required>
+                                </div>
+                            </div>
+                            <div class="form-group mt-3">
+                                <label for="name">Asunto</label>
+                                <input type="text" class="form-control" name="subject" id="subject" required>
+                            </div>
+                            <div class="form-group mt-3">
+                                <label for="name">Mensaje</label>
+                                <textarea class="form-control" name="message" rows="10" required></textarea>
+                            </div>
+                            <div class="my-3">
+                                <div class="loading">Cargando</div>
+                                <div class="error-message"></div>
+                                <div class="sent-message">¡Recibimos tu mensaje!</div>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit">Enviar</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Nav Bar End -->
+    </section><!-- End Contact Section -->
 
+</main><!-- End #main -->
 
+<!-- ======= Footer ======= -->
+<footer id="footer">
 
-        
-        <!-- Hero Start -->
-        <div class="hero image-fondo">
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-sm-12 col-md-6">
-                        <div class="hero-text">
-                            <h1>Vivi la 
-                                <br> experiencia </br></h1>
-                            <h2>DEJÁ QUE LA MÚSICA TE ENVUELVA</h2>
-                            <p>
-                                Recibí una caja en la puerta de tu casa mes a mes con diferentes discos de vinilo seleccionados para vos.
-                            </p>
-                            <div class="hero-btn">
-                                <a class="btn" href="">¡UNITE AL CLUB!</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 d-none d-md-block">
-                        <div class="hero-image">
-                            <img src="img/hero.png" width="700" height="600" />
-                        </div>
-                    </div>
+    <div class="footer-top">
+
+        <div class="container">
+
+            <div class="row  justify-content-center">
+                <div class="col-lg-6">
+                    <h3>Club del vinilo</h3>
+                    <p>"No estamos invitandote a comprar un disco de vinilos, estamos invitandote a vivir una
+                        experiencia real junto a nosotros."</p>
                 </div>
             </div>
-        </div>
-        <div>
-        <!-- Hero End -->
 
-
-        <!-- About Start 
-        <div class="about wow fadeInUp" data-wow-delay="0.1s">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-5 col-md-6">
-                        <div class="about-img">
-                            <img src="img/about.png" alt="Image">
-                        </div>
-                    </div>
-                    <div class="col-lg-7 col-md-6">
-                        <div class="section-header text-left">
-                            <p>Learn About Us</p>
-                            <h2>Welcome to Yooga</h2>
-                        </div>
-                        <div class="about-text">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
-                            </p>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus.
-                            </p>
-                            <a class="btn" href="">Learn More</a>
-                        </div>
-                    </div>
+            <div class="row footer-newsletter justify-content-center">
+                <div class="col-lg-6">
+                    <form action="" method="post">
+                        <input type="email" name="email" placeholder="E-mail"><input type="submit" value="Subscribite">
+                    </form>
                 </div>
             </div>
-        </div>
-         About End -->
 
-
- 
-
-        <!-- Service Start -->
-        <div class="service">
-            <div class="container">
-                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                    <h2>¡Así de fácil!</h2>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.0s">
-                        <div class="service-item">
-                            <div class="service-icon">
-                                <i class="flaticon-workout"></i>
-                            </div>
-                            <h3>¡UNITE AL CLUB!</h3>
-                            <p>
-                                Elegí tu combo favorito.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="service-item active">
-                            <div class="service-icon">
-                                <i class="flaticon-workout-1"></i>
-                            </div>
-                            <h3>RECIBÍ</h3>
-                            <p>
-                                Llegará gratis a tu domicilio.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="service-item">
-                            <div class="service-icon">
-                                <i class="flaticon-workout-2"></i>
-                            </div>
-                            <h3>DISFRUTÁ</h3>
-                            <p>
-                                Sumergite en la magia.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+            <div class="social-links">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
             </div>
+
         </div>
-        <!-- Service End -->
+    </div>
 
-
-                 <!-- Price Start -->
-                 <div class="price">
-                    <div class="container">
-                        <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                           
-                            <h2>Yoga Pricing Plan</h2>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.0s">
-                                <div class="price-item">
-                                    <div class="price-header">
-                                        <div class="price-title">
-                                            <h2>Basic</h2>
-                                        </div>
-                                        <div class="price-prices">
-                                            <h2><small>$</small>49<span>/ mo</span></h2>
-                                        </div>
-                                    </div>
-                                    <div class="price-body">
-                                        <div class="price-description">
-                                            <ul>
-                                                <li>Personal Trainer</li>
-                                                <li>Special Class</li>
-                                                <li>Free Tutorials</li>
-                                                <li>Group Training</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="price-footer">
-                                        <div class="price-action">
-                                            <a class="btn" href="">Join Now</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.3s">
-                                <div class="price-item featured-item">
-                                    <div class="price-header">
-                                        <div class="price-status">
-                                            <span>Popular</span>
-                                        </div>
-                                        <div class="price-title">
-                                            <h2>Standard</h2>
-                                        </div>
-                                        <div class="price-prices">
-                                            <h2><small>$</small>99<span>/ mo</span></h2>
-                                        </div>
-                                    </div>
-                                    <div class="price-body">
-                                        <div class="price-description">
-                                            <ul>
-                                                <li>Personal Trainer</li>
-                                                <li>Special Class</li>
-                                                <li>Free Tutorials</li>
-                                                <li>Group Training</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="price-footer">
-                                        <div class="price-action">
-                                            <a class="btn" href="">Join Now</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.6s">
-                                <div class="price-item">
-                                    <div class="price-header">
-                                        <div class="price-title">
-                                            <h2>Premium</h2>
-                                        </div>
-                                        <div class="price-prices">
-                                            <h2><small>$</small>149<span>/ mo</span></h2>
-                                        </div>
-                                    </div>
-                                    <div class="price-body">
-                                        <div class="price-description">
-                                            <ul>
-                                                <li>Personal Trainer</li>
-                                                <li>Special Class</li>
-                                                <li>Free Tutorials</li>
-                                                <li>Group Training</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="price-footer">
-                                        <div class="price-action">
-                                            <a class="btn" href="">Join Now</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Price End -->
-
-        <!-- Class Start -->
-        <div class="class">
-            <div class="container">
-                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                    <p>Our Classes</p>
-                    <h2>Yoga Class Shedule</h2>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <ul id="class-filter">
-                            <li data-filter="*" class="filter-active">All Classes</li>
-                            <li data-filter=".filter-1">Pilates Yoga</li>
-                            <li data-filter=".filter-2">Hatha Yoga</li>
-                            <li data-filter=".filter-3">Vinyasa yoga</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row class-container">
-                    <div class="col-lg-4 col-md-6 col-sm-12 class-item filter-1 wow fadeInUp" data-wow-delay="0.0s">
-                        <div class="class-wrap">
-                            <div class="class-img">
-                                <img src="img/class-1.jpg" alt="Image">
-                            </div>
-                            <div class="class-text">
-                                <div class="class-teacher">
-                                    <img src="img/teacher-1.png" alt="Image">
-                                    <h3>Elise Moran</h3>
-                                    <a href="">+</a>
-                                </div>
-                                <h2>Pilates Yoga</h2>
-                                <div class="class-meta">
-                                    <p><i class="far fa-calendar-alt"></i>Sun, Tue, Thu</p>
-                                    <p><i class="far fa-clock"></i>9:00 - 10:00</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 class-item filter-2 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="class-wrap">
-                            <div class="class-img">
-                                <img src="img/class-2.jpg" alt="Image">
-                            </div>
-                            <div class="class-text">
-                                <div class="class-teacher">
-                                    <img src="img/teacher-2.png" alt="Image">
-                                    <h3>Kate Glover</h3>
-                                    <a href="">+</a>
-                                </div>
-                                <h2>Iyengar Yoga</h2>
-                                <div class="class-meta">
-                                    <p><i class="far fa-calendar-alt"></i>Sun, Tue, Thu</p>
-                                    <p><i class="far fa-clock"></i>9:00 - 10:00</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 class-item filter-3 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="class-wrap">
-                            <div class="class-img">
-                                <img src="img/class-3.jpg" alt="Image">
-                            </div>
-                            <div class="class-text">
-                                <div class="class-teacher">
-                                    <img src="img/teacher-3.png" alt="Image">
-                                    <h3>Elina Ekman</h3>
-                                    <a href="">+</a>
-                                </div>
-                                <h2>Ashtanga yoga</h2>
-                                <div class="class-meta">
-                                    <p><i class="far fa-calendar-alt"></i>Sun, Tue, Thu</p>
-                                    <p><i class="far fa-clock"></i>9:00 - 10:00</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 class-item filter-1 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="class-wrap">
-                            <div class="class-img">
-                                <img src="img/class-4.jpg" alt="Image">
-                            </div>
-                            <div class="class-text">
-                                <div class="class-teacher">
-                                    <img src="img/teacher-4.png" alt="Image">
-                                    <h3>Lilly Fry</h3>
-                                    <a href="">+</a>
-                                </div>
-                                <h2>Hatha Yoga</h2>
-                                <div class="class-meta">
-                                    <p><i class="far fa-calendar-alt"></i>Sun, Tue, Thu</p>
-                                    <p><i class="far fa-clock"></i>9:00 - 10:00</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 class-item filter-2 wow fadeInUp" data-wow-delay="0.8s">
-                        <div class="class-wrap">
-                            <div class="class-img">
-                                <img src="img/class-5.jpg" alt="Image">
-                            </div>
-                            <div class="class-text">
-                                <div class="class-teacher">
-                                    <img src="img/teacher-5.png" alt="Image">
-                                    <h3>Olivia Yates</h3>
-                                    <a href="">+</a>
-                                </div>
-                                <h2>Kundalini Yoga</h2>
-                                <div class="class-meta">
-                                    <p><i class="far fa-calendar-alt"></i>Sun, Tue, Thu</p>
-                                    <p><i class="far fa-clock"></i>9:00 - 10:00</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 class-item filter-3 wow fadeInUp" data-wow-delay="1s">
-                        <div class="class-wrap">
-                            <div class="class-img">
-                                <img src="img/class-6.jpg" alt="Image">
-                            </div>
-                            <div class="class-text">
-                                <div class="class-teacher">
-                                    <img src="img/teacher-6.png" alt="Image">
-                                    <h3>Millie Harper</h3>
-                                    <a href="">+</a>
-                                </div>
-                                <h2>Vinyasa yoga</h2>
-                                <div class="class-meta">
-                                    <p><i class="far fa-calendar-alt"></i>Sun, Tue, Thu</p>
-                                    <p><i class="far fa-clock"></i>9:00 - 10:00</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="container footer-bottom clearfix">
+        <div class="copyright">
+            &copy; Copyright <strong><span>Club del vinilo</span></strong>. Todos los derechos reservados.
         </div>
-        <!-- Class End -->
-        
-        
-        <!-- Discount Start -->
-        <div class="discount wow zoomIn" data-wow-delay="0.1s">
-            <div class="container">
-                <div class="section-header text-center">
-                    <p>Awesome Discount</p>
-                    <h2>Get <span>30%</span> Discount for all Classes</h2>
-                </div>
-                <div class="container discount-text">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. 
-                    </p>
-                    <a class="btn">Join Now</a>
-                </div>
-            </div>
+        <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/enno-free-simple-bootstrap-template/ -->
+            Designed by <a href="https://bootstrapmade.com/">Milena Dancervich</a>
         </div>
-        <!-- Discount End -->
-        
-        <!-- Blog Start -->
-        <div class="blog">
-            <div class="container">
-                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                    <p>From Blog</p>
-                    <h2>Latest Yoga Articles</h2>
-                </div>
-                <div class="owl-carousel blog-carousel wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="blog-item">
-                        <div class="blog-img">
-                            <img src="img/blog-1.jpg" alt="Blog">
-                        </div>
-                        <div class="blog-text">
-                            <h2>Lorem ipsum dolor</h2>
-                            <div class="blog-meta">
-                                <p><i class="far fa-list-alt"></i>Body Fitness</p>
-                                <p><i class="far fa-calendar-alt"></i>01-Jan-2045</p>
-                                <p><i class="far fa-comments"></i>5</p>
-                            </div>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
-                            </p>
-                            <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="blog-item">
-                        <div class="blog-img">
-                            <img src="img/blog-2.jpg" alt="Blog">
-                        </div>
-                        <div class="blog-text">
-                            <h2>Lorem ipsum dolor</h2>
-                            <div class="blog-meta">
-                                <p><i class="far fa-list-alt"></i>Body Fitness</p>
-                                <p><i class="far fa-calendar-alt"></i>01-Jan-2045</p>
-                                <p><i class="far fa-comments"></i>5</p>
-                            </div>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
-                            </p>
-                            <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="blog-item">
-                        <div class="blog-img">
-                            <img src="img/blog-3.jpg" alt="Blog">
-                        </div>
-                        <div class="blog-text">
-                            <h2>Lorem ipsum dolor</h2>
-                            <div class="blog-meta">
-                                <p><i class="far fa-list-alt"></i>Body Fitness</p>
-                                <p><i class="far fa-calendar-alt"></i>01-Jan-2045</p>
-                                <p><i class="far fa-comments"></i>5</p>
-                            </div>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
-                            </p>
-                            <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="blog-item">
-                        <div class="blog-img">
-                            <img src="img/blog-4.jpg" alt="Blog">
-                        </div>
-                        <div class="blog-text">
-                            <h2>Lorem ipsum dolor</h2>
-                            <div class="blog-meta">
-                                <p><i class="far fa-list-alt"></i>Body Fitness</p>
-                                <p><i class="far fa-calendar-alt"></i>01-Jan-2045</p>
-                                <p><i class="far fa-comments"></i>5</p>
-                            </div>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
-                            </p>
-                            <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="blog-item">
-                        <div class="blog-img">
-                            <img src="img/blog-5.jpg" alt="Blog">
-                        </div>
-                        <div class="blog-text">
-                            <h2>Lorem ipsum dolor</h2>
-                            <div class="blog-meta">
-                                <p><i class="far fa-list-alt"></i>Body Fitness</p>
-                                <p><i class="far fa-calendar-alt"></i>01-Jan-2045</p>
-                                <p><i class="far fa-comments"></i>5</p>
-                            </div>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
-                            </p>
-                            <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="blog-item">
-                        <div class="blog-img">
-                            <img src="img/blog-6.jpg" alt="Blog">
-                        </div>
-                        <div class="blog-text">
-                            <h2>Lorem ipsum dolor</h2>
-                            <div class="blog-meta">
-                                <p><i class="far fa-list-alt"></i>Body Fitness</p>
-                                <p><i class="far fa-calendar-alt"></i>01-Jan-2045</p>
-                                <p><i class="far fa-comments"></i>5</p>
-                            </div>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
-                            </p>
-                            <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Blog End -->
-       
-        
-        
-        <!-- Testimonial Start -->
-        <div class="testimonial wow fadeInUp" data-wow-delay="0.1s">
-            <div class="container">
-                <div class="section-header text-center">
-                    <p>Testimonial</p>
-                    <h2>Our Client Say!</h2>
-                </div>
-                <div class="owl-carousel testimonials-carousel">
-                    <div class="testimonial-item">
-                        <div class="testimonial-img">
-                            <img src="img/testimonial-1.jpg" alt="Image">
-                        </div>
-                        <div class="testimonial-text">
-                            <p>
-                                Lorem ipsum dolor sit amet consec adipis elit. Etiam accums lacus eget velit tincid, quis suscip justo dictum.
-                            </p>
-                            <h3>Customer Name</h3>
-                            <h4>Profession</h4>
-                        </div>
-                    </div>
-                    <div class="testimonial-item">
-                        <div class="testimonial-img">
-                            <img src="img/testimonial-2.jpg" alt="Image">
-                        </div>
-                        <div class="testimonial-text">
-                            <p>
-                                Lorem ipsum dolor sit amet consec adipis elit. Etiam accums lacus eget velit tincid, quis suscip justo dictum.
-                            </p>
-                            <h3>Customer Name</h3>
-                            <h4>Profession</h4>
-                        </div>
-                    </div>
-                    <div class="testimonial-item">
-                        <div class="testimonial-img">
-                            <img src="img/testimonial-3.jpg" alt="Image">
-                        </div>
-                        <div class="testimonial-text">
-                            <p>
-                                Lorem ipsum dolor sit amet consec adipis elit. Etiam accums lacus eget velit tincid, quis suscip justo dictum.
-                            </p>
-                            <h3>Customer Name</h3>
-                            <h4>Profession</h4>
-                        </div>
-                    </div>
-                    <div class="testimonial-item">
-                        <div class="testimonial-img">
-                            <img src="img/testimonial-4.jpg" alt="Image">
-                        </div>
-                        <div class="testimonial-text">
-                            <p>
-                                Lorem ipsum dolor sit amet consec adipis elit. Etiam accums lacus eget velit tincid, quis suscip justo dictum.
-                            </p>
-                            <h3>Customer Name</h3>
-                            <h4>Profession</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Testimonial End -->
+    </div>
+</footer><!-- End Footer -->
 
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center" style="background-color: #04cbb3;"><i
+        class="bi bi-arrow-up-short"></i></a>
 
+<!-- Vendor JS Files -->
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+<script src="assets/vendor/purecounter/purecounter.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
+<!-- Template Main JS File -->
+<script src="assets/js/main.js"></script>
 
-        
+</body>
 
-
-        
-        <!-- Contact Start -->
-        <div class="contact">
-            <div class="container">
-                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                    <p>Get In Touch</p>
-                    <h2>For Any Query</h2>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-md-4 contact-item wow zoomIn" data-wow-delay="0.2s">
-                                <i class="fa fa-map-marker-alt"></i>
-                                <div class="contact-text">
-                                    <h2>Location</h2>
-                                    <p>123 Street, New York, USA</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4 contact-item wow zoomIn" data-wow-delay="0.4s">
-                                <i class="fa fa-phone-alt"></i>
-                                <div class="contact-text">
-                                    <h2>Phone</h2>
-                                    <p>+012 345 67890</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4 contact-item wow zoomIn" data-wow-delay="0.6s">
-                                <i class="far fa-envelope"></i>
-                                <div class="contact-text">
-                                    <h2>Email</h2>
-                                    <p>info@example.com</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="contact-form">
-                            <div id="success"></div>
-                            <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                                <div class="control-group">
-                                    <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="control-group">
-                                    <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="control-group">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="control-group">
-                                    <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div>
-                                    <button class="btn" type="submit" id="sendMessageButton">Send Message</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Contact End -->
-
-        <!-- Footer Start -->
-        <div class="footer wow fadeIn" data-wow-delay="0.3s">
-            <div class="container-fluid">
-                <div class="container">
-                    <div class="footer-info">
-                        <a href="index.html" class="footer-logo">Y<span>oo</span>ga</a>
-                        <h3>123 Street, New York, USA</h3>
-                        <div class="footer-menu">
-                            <p>+012 345 67890</p>
-                            <p>info@example.com</p>
-                        </div>
-                        <div class="footer-social">
-                            <a href=""><i class="fab fa-twitter"></i></a>
-                            <a href=""><i class="fab fa-facebook-f"></i></a>
-                            <a href=""><i class="fab fa-youtube"></i></a>
-                            <a href=""><i class="fab fa-instagram"></i></a>
-                            <a href=""><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="container copyright">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <p>&copy; <a href="#">Your Site Name</a>, All Right Reserved.</p>
-                        </div>
-                        <div class="col-md-6">
-                            <p>Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Footer End -->
-
-        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-
-        <!-- JavaScript Libraries -->
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/wow/wow.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-        <script src="lib/isotope/isotope.pkgd.min.js"></script>
-        <script src="lib/lightbox/js/lightbox.min.js"></script>
-        
-        <!-- Contact Javascript File -->
-        <script src="mail/jqBootstrapValidation.min.js"></script>
-        <script src="mail/contact.js"></script>
-
-        <!-- Template Javascript -->
-        <script src="js/main.js"></script>
-    </body>
 </html>
